@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            gap: 20px; 
+            padding: 20px;
+            grid-template-columns: repeat(auto-fill, 230px);
+            row-gap: 50px;
+            column-gap: 30px;
+        }
+        .para {
+            border: 2px solid silver;
+            box-shadow: 2px 2px 2px hsl(0, 0%, 80%);
+            padding: 3px;
+        }
+        .image {
+            display: grid;
+            justify-content: auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        .img-title {
+            font-weight: bold;
+            padding-left: 5px;
+        }
+        p {
+            padding-left: 5px;
+        }
+        button {
+            background-color: rgb(49, 52, 238);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS GRID GALLERY</h1>
+    <div class="grid-container">
+        <div class="para">
+            <div class="image">
+                <img src="https://i.pinimg.com/236x/2f/be/99/2fbe9951068c82ccc4f77dcd4a4aa489.jpg" alt="">
+            </div>
+            <p class="img-title">Image Title</p>
+            <p>Nulla pharetra diam sit amet nisl.</p>
+            <button type="button">Click me</button>
+        </div>
+        <div class="para">
+            <div class="image">
+                <img src="https://i.pinimg.com/236x/33/d1/3e/33d13e57b4d58f1c7b4f67e91b194774.jpg" alt="">
+            </div>
+            <p class="img-title">Image Title</p>
+            <p>Aliquet bibendum enim facilisis gravida neque.</p>
+            <button type="button">Click me</button>
+        </div> 
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/2e/61/5e/2e615efd6a6ac5c90b5770361575888a.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Magna fringilla urna porttitor rhoncus dolor purus.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/ce/bd/ab/cebdab9684a03c298ba54ec25712bfd4.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Lorem dolor sed viverra ipsum nunc aliquet.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/df/aa/8e/dfaa8ebc002baefbd3b8b448723d76c9.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Eget nullam non nisi est sit amet facilisis magna etiam.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/3e/79/18/3e791878743d6708c7e893459e32662a.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Blandit massa enim nec dui nunc mattis enim.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/bf/5d/21/bf5d2194de873d30ed3a5007e75d91de.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Sollicitudin ac orci phasellus egestas.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/6b/8f/8c/6b8f8c28a836a6187b17c94fc8659944.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Feugiat scelerisque varius morbi enim nunc.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/f8/96/f1/f896f129f3d1f044d991cb6a1cb4ca4b.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Purus semper eget duis at.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/5d/1d/8f/5d1d8fb92a663657a3164d0e2dbe8c8f.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Nibh praesent tristique magna sit amet purus.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/b0/d4/76/b0d4767f1eb40a01c9cab7ce1ac6e53a.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Lacus suspendisse faucibus interdum posuere lorem ipsum dolor.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/57/31/af/5731af3859d06a01f735c4c0035b314f.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Rutrum quisque non tellus orci ac auctor.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/e8/ad/bd/e8adbd276a9d820beb060e526e66707f.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Erat imperdiet sed euismod nisi.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/5a/c3/17/5ac317907488d10617c7ba8f09aa8da5.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Vel elit scelerisque mauris pellentesque.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/4f/61/64/4f616494382a0cf48921f0474a3c3cc7.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Mollis aliquam ut porttitor leo a diam sollicitudin tempor id.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/ee/26/28/ee26288d20384c793fc88c4f78742ebf.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Ipsum consequat nisl vel pretium lectus quam id.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/77/4f/1b/774f1b07bf27df3565b90802e4a01b43.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Ut aliquam purus sit amet luctus venenatis.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/e9/7a/8b/e97a8bddd19c0a0b757532dbe26e962d.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/48/1a/13/481a13a5bdbfeb8a8847af887fead83f.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>Ornare arcu dui vivamus arcu felis bibendum.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+        <div>
+            <div class="para">
+                <div class="image">
+                    <img src="https://i.pinimg.com/236x/32/54/8d/32548d60f1f22aee83a6c66eb2987f35.jpg" alt="">
+                </div>
+                <p class="img-title">Image Title</p>
+                <p>In metus vulputate eu scelerisque felis imperdiet proin.</p>
+                <button type="button">Click me</button>
+            </div> 
+        </div>
+</body>
+</html>
